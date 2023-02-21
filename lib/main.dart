@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Matches'),
+        title: const Text('List View '),
       ),
       body: Consumer<UserViewModel>(
         builder: (context, userViewModel, child) {
